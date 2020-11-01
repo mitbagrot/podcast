@@ -1,35 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
-<channel>
-<title>Title of Podcast</title>
-<link>http://www.example.com/<link>
-<language>en-us</language>
-<itunes:subtitle>Subtitle of podcast</itunes:subtitle>
-<itunes:author>Author Name</itunes:author>
-<itunes:summary>Description of podcast.</itunes:summary>
-<description>Description of podcast.</description>
-<itunes:owner>
-    <itunes:name>Bruria Bublil</itunes:name>
-    <itunes:email>mitbagrot@gmail.com</itunes:email>
-</itunes:owner>
-<itunes:explicit>no</itunes:explicit>
-<itunes:image href="http://www.example.com/podcast-icon.jpg" />
-<itunes:category text="Category Name"/></itunes:category>
-
-<!--REPEAT THIS BLOCK FOR EACH EPISODE-->
-<item>
-    <title>פרק 1</title>
-    <itunes:summary>Description of podcast episode content</itunes:summary>
-    <description>Description of podcast episode content</description>
-    <link>http://example.com/podcast-1</link>
-    <enclosure url="https://drive.google.com/file/d/1r6n428sOnypyNC2k7GNSdFRj8TjADJ0J/view?usp=sharing" type="audio/mpeg" length="1024"></enclosure>
-    <pubDate>Sat, 31 Oct 2020 08:00:00 +0000</pubDate>
-    <itunes:author>Author Name</itunes:author>
-    <itunes:duration>00:38:00</itunes:duration>
-    <itunes:explicit>no</itunes:explicit>
-    <guid>http://example.com/podcast-1</guid>
-</item> 
-<!--END REPEAT--> 
-   
-</channel>
+<rss version="2.0"
+    xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+    xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Mitbagrot - Podcast</title>
+    <googleplay:owner>mitbagrot@gmail.com</googleplay:owner>
+    <googleplay:author>Bruria Bublil</googleplay:author>
+    <description>ספור, בנות ומה שבניהן</description>
+    <googleplay:image href="https://www.example.com/podcasts/dafnas-zebras/img/dafna-zebra-pod-logo.jpg"/>
+    <language>en-us</language>
+    <link>https://mitbagrot.github.io/podcast.</link>
+    <item>
+      <title>פרק 1</title>
+      <description>פיילוט</description>
+      <pubDate>Sat, 31 Oct 2020 08:00:00 GMT</pubDate>
+      <enclosure url="https://drive.google.com/file/d/1r6n428sOnypyNC2k7GNSdFRj8TjADJ0J/view?usp=sharing"
+                 type="audio/mpeg" length="34216300"/>
+      <itunes:duration>38:00</itunes:duration>
+      <guid isPermaLink="false">dzpodtop10</guid>
+    </item>    
+  </channel>
 </rss>
